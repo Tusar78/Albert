@@ -1,0 +1,592 @@
+/* Basic Typography */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: calibri;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;  
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* Basic Typography End */
+
+/* Header and navigation area  */
+.header {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.header .customizeHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .customizeHead .headerLogo img{
+    width: 50px;
+}
+
+.header .customizeHead .navigation ul {
+    display: flex;
+}
+
+.header .customizeHead .navigation ul li a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #4c4c4c;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.header .customizeHead .navigation ul li a:hover {
+    color: #ff5e5f;
+}
+
+.header .customizeHead .headerCart a {
+    display: flex;
+    padding: 10px 22px;
+    background-color: #ff5e5f;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header .customizeHead .headerCart a span {
+    margin-left: 5px;
+}
+/* Header and navigation area End */
+
+/* Slider Area  */
+.coverArea {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #14131b;
+}
+
+.coverArea .coverArea__main-cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coverArea .coverArea__main-cover .someText {
+    width: 50%;
+}
+
+.coverArea .coverArea__main-cover .someText h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.coverArea .coverArea__main-cover .someText h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.coverArea .coverArea__main-cover .someText p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.coverArea .coverArea__main-cover .socialArea a{
+    font-size: 13px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.coverArea .coverArea__main-cover .coverAvator {
+    width: 40%;
+}
+
+.coverArea .coverArea__main-cover .coverAvator img {
+    width: 320px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255,255,255, .3);
+}
+/* Slider Area End  */
+
+/* About Me Section */
+.aboutMeSec {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #fff;
+}
+
+.aboutMeSec .aboutMeSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutMeSec .aboutMeSection .aboutPic, .aboutMeSec .aboutMeSection .aboutText {
+    width: 48%;
+}
+
+.aboutMeSec .aboutMeSection .aboutPic img {
+    width: 90%;
+    box-shadow: 15px 15px 0 #ff5e5f;
+}
+
+.aboutMeSec .aboutMeSection .aboutText h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #ff5e5f;
+}
+
+.aboutMeSec .aboutMeSection .aboutText  p {
+    font-size: 22px;
+    color: #4c4c4c;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.aboutMeSec .aboutMeSection .aboutText  p.secondP {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.aboutMeSec .aboutMeSection .aboutText a {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #ff5e5f;
+    color: #fff;
+    font-weight: bold;
+}
+/* About Me Section End */
+
+/* Our Service Section */
+.OurService {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #f3f3f3;
+}
+
+.serviceHeader{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.serviceHeader span {
+    font-size: 14px;
+    color: #ff5e5f;
+}
+
+.serviceHeader h2 {
+    font-size: 28px;
+    color: #14131b;    
+}
+
+
+.OurService .serviceSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.OurService .serviceSection .singleItem {
+    background-color: #fff;
+    width: 32%;
+    padding: 50px 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.OurService .serviceSection .singleItem img{
+    width: 50px;
+    height: 50px;
+}
+
+.OurService .serviceSection .singleItem h4{
+    margin: 30px 0;
+    color: #14131b;
+    font-size: 22px;
+}
+
+.OurService .serviceSection .singleItem p{
+    color: #777;
+}
+/* Our Service Section End */
+
+/* Our Taks Area  */
+.ourTastArea {
+    width: 100%;
+    padding: 0 0 140px;
+    background-color: #f3f3f3;
+}
+
+.ourTastArea .taskArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ourTastArea .taskArea .left, .ourTastArea .taskArea .right {
+    width: 45%;
+}
+
+.ourTastArea .taskArea .perSent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.ourTastArea .taskArea progress {
+    margin-bottom: 40px;
+    width: 100%;
+    height: 8px;
+    background-color: #fff;
+}
+
+.ourTastArea .taskArea progress[max="100"]::-webkit-progress-bar {
+    background-color: #000;
+}
+
+.ourTastArea .taskArea progress[value]::-webkit-progress-value {
+    background-image:-webkit-linear-gradient(left, #ff5e5f, #ff5e5f);  
+  }
+
+/* Our Taks Area End */
+
+/* Creative Works Area  */
+.creaTiveWork {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #fff;
+}
+
+.creaTiveWork .filterMenu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.creaTiveWork .filterMenu a {
+    display: inline-block;
+    padding: 15px;
+    color: #14131b;
+    transition: .3s;    
+}
+
+.creaTiveWork .filterMenu a:hover {
+    color: #ff5e5f;
+}
+
+.creaTiveWork .workSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.creaTiveWork .workSection img{
+    width: 31%;
+}
+/* Creative Works Area End */
+
+/* Working Experience Area */
+.workExp {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #f3f3f3;
+}
+
+.workExp .workingExpSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.workExp .workingExpSection .singleItem{
+    width: 31%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.workExp .workingExpSection .singleItem span {
+    font-size: 13px;
+    color: #ff5e5f;
+}
+
+.workExp .workingExpSection .singleItem h3 {
+    font-size: 22px;
+    color: #14131b;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #999;
+}
+
+.workExp .workingExpSection .singleItem p {
+    font-size: 16px;
+    color: #777;
+    padding-top: 15px;
+    line-height: 25px;
+}
+/* Working Experience Area End */
+
+/* Project Complete status Area  */
+.proComStatus {
+    width: 100%;
+    padding: 80px 0;        
+    background: url(assest/images/group.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.proComStatus::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+}
+
+.proComStatus .projectStatus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.proComStatus .projectStatus .projectItems {
+    text-align: center;
+}
+
+.proComStatus .projectStatus .projectItems img{
+    width: 50px;
+    height: 50px;
+}
+
+.proComStatus .projectStatus .projectItems h3{
+    font-size: 24px;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.proComStatus .projectStatus .projectItems span{
+    font-size: 16px;
+    color: #fff;
+}
+/* Project Complete status Area End  */
+
+/* Our Team Member area  */
+.ourTeam {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #fff;
+}
+
+.ourTeam .TeamMember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ourTeam .TeamMember .member {
+    width: 31%;
+}
+
+.ourTeam .TeamMember img {
+    width: 100%;
+}
+/* Our Team Member area End */
+
+/* Testimonials Area  */
+.testimoniaArea {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #f3f3f3;
+}
+
+.testimoniaArea .clientSay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimoniaArea .clientSay .singleClient {
+    width: 31%;
+    text-align: center;
+}
+
+.testimoniaArea .clientSay .singleClient img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimoniaArea .clientSay .singleClient p{
+    margin: 50px 0;
+    font-size: 16px;
+    color: #4c4c4c;
+    padding: 0 15px;
+}
+
+.testimoniaArea .clientSay .singleClient .quote {
+    margin-bottom: 40px;
+    color: #ff5e5f;
+}
+
+.testimoniaArea .clientSay .singleClient h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.testimoniaArea .clientSay .singleClient span {
+    font-size: 16px;
+    color: #777;
+}
+/* Testimonials Area  End */
+
+/* Our Blog Area  */
+.ourBlog {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #fff;
+}
+
+.ourBlog .letestNews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ourBlog .letestNews .singleNews {
+    width: 31%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    background-color: #fff;
+}
+
+.ourBlog .letestNews .singleNews img{
+    width: 100%;
+}
+
+.ourBlog .letestNews .singleNews .blogCard {
+    padding: 35px 55px;
+}
+
+.ourBlog .letestNews .singleNews h5{
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: normal;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #bbb;
+}
+
+.ourBlog .letestNews .singleNews span{
+    color: #ff5e5f;
+}
+
+.ourBlog .letestNews .singleNews .blogCard h2 {
+    color: #14131b;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Our Blog Area End*/
+
+/* faqsArea  */
+.faqsArea {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #f1f1f1;
+}
+
+.faqsArea .faqs {
+    text-align: center;
+}
+
+.faqsArea .faqs h2 {
+    font-size: 28px;
+}
+.faqsArea .faqs p {
+    color: #707070;
+    padding: 0 285px;
+    margin: 35px 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.faqsArea .faqs a {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #ff5e5f;
+    color: #fff;
+}
+/* faqsArea End */
+
+/* contact Area  */
+.contactArea {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #fff;
+}
+
+.contactArea .contact {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactArea .contact input,  .contactArea .contact textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #707070;
+    padding: 10px 200px;
+    text-align: center;
+    margin: 30px 0;
+    outline: none;
+} 
+
+.contactArea .contact textarea {
+    height: 150px;
+} 
+
+.contactArea .contact a {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #ff5e5f;
+    color: #fff;
+} 
+
+/* contact Area End */
+
+/* Footer Area  */
+.footer {
+    width: 100%;
+    padding: 70px 0;
+    background-color: #000;
+}
+
+.footer p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p span{
+    color: #ff5e5f;
+}
+/* Footer Area End */

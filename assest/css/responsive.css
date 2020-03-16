@@ -1,0 +1,56 @@
+@media screen and (max-width: 992px){}
+@media screen and (max-width: 768px){
+    .carousel .control {
+        padding: 0 20px;
+    }
+
+    .moreCarousel .moreCarouselItems .moreCarouselItem {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 556px){
+    .carousel p {
+        display: none;
+    }
+
+    .carousel h5 {
+        font-size: 9px;
+    }
+
+    .carousel .control {
+        padding: 0 10px;
+    }
+
+    .carousel .fa-arrow-alt-circle-down {
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 20px 10px;
+    }
+
+    .socialPart .TwoSocialPart .leftSocial {
+        flex-direction: column;
+    }
+
+    .socialPart .TwoSocialPart .leftSocial a {
+        margin-bottom: 10px;
+    }
+
+    .aboutMe .aboutMyself {
+        flex-direction: column;
+    }
+
+    .aboutMe .aboutMyself .detailsMe {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .aboutMe .aboutMyself .detailsMe a {
+        justify-content: center;
+    }
+
+    .moreCarousel .moreCarouselItems .moreCarouselItem {
+        width: 100%;
+    }
+}
